@@ -16,3 +16,13 @@ nitor/recording/trunk-sip-908502591905&username=&password=
 20161025-162048-903123320404-100-1477401638.35-15.gsm
 *Aşağıdaki api ile filitreli ses kayıt listesini çekebilirsiniz.
 Örneğin aşağıdaki api 903123320404 ile ilişkili kayıtları listeler.
+
+iki yıldız arasındaki 903123320404 yerine 100-903123320404 yazarsanız 100 ün aradığı
+903123320404 kayıtlarını listeler.
+iki yıldız arasındaki 903123320404 yerine 903123320404-100 yazarsanız 903123320404 ün aradığı
+100 kayıtlarını listeler.
+iki yıldız arasındaki 903123320404 yerine 20161118- yazarsanız 18.11.2016 tarihindeki kayıtları
+listeler.
+iki yıldız arasındaki 903123320404 yerine 20161118-*-100-903123320404 yazarsanız 18.11.2016
+tarihindeki 100 ün aradığı 903123320404 kayıtları listeler. 
+
