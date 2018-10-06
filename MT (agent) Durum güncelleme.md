@@ -1,6 +1,6 @@
 DURUM GETİRME
 
-Crm.telsam.com.tr/?supervisor=domain.com.tr&password=pass&action=getstatus&phone=100
+cm.telsam.com.tr/?supervisor=domain.com.tr&password=pass&action=getstatus&phone=100
 
 Supervisor: Domain adresiniz
 Password: Supervisor şifreniz
@@ -12,7 +12,7 @@ Phone: Durumu getirilecek agentin telefon numarası
 
 DURUM DEĞİŞTİRME
 
-Crm.telsam.com.tr/?supervisor=telsam.com.tr&password=123&action=sendstatus&phone=100&statusid=2
+cm.telsam.com.tr/?supervisor=telsam.com.tr&password=123&action=sendstatus&phone=100&statusid=2
 
 Supervisor: Domain adresiniz
 Password: Supervisor şifreniz
