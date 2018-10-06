@@ -37,3 +37,47 @@ name%20*903123320404*&username=&password=
 
 https://ipadresi:9999/cgi-bin/fileget.cgi?action=rcdownload&filename=recording/trunk-sip908502591905/20161027-163425-100-905412535962-1477575265.426-
 5.gsm&username=&password=
+
+Örnek get adresi;
+
+https://ipadresi:9999/cgi-
+bin/autocalls.cgi?action=call&number=903123320404&mr=2&rt=10&dp=1&dest=1&detail=&datetim
+
+e=-1&username=&password=
+
+*Veriyi alma
+işem sırasında sonucu direk size get edeceğimiz bir adres vermelisiniz.
+örn;
+http://www.siteniz.com/santral/bilgigonder.php?sonuc=&telefon=&son=
+
+telefon= aranan numara bilgisi başında 90 olarak gelir örneğin 903123320404
+sonuc= arama sırasında oluşabilecek durumları döner.
+son= aramanın sonlanıp sonlanmadığını söyler
+
+Dönen Değerler
+
+Arama bilgileri dönerken aşağıdaki şekilde değerler gelebilir.
+
+1..9
+ANSWER
+NOANSWER
+BUSY
+FAILED
+CANCEL
+CONGESTION
+CHANUNAVAIL
+DONTCALL
+TORTURE
+INVALIDARGS
+
+ANSWER: Call is answered. A successful dial. The caller reached the callee.
+BUSY: Busy signal. The dial command reached its number but the number is busy.
+NOANSWER: No answer. The dial command reached its number, the number rang for too long, then
+the dial timed out.
+CANCEL: Call is cancelled. The dial command reached its number but the caller hung up before the
+callee picked up.
+CONGESTION: Congestion. This status is usually a sign that the dialled number is not recognised.
+CHANUNAVAIL: Channel unavailable. On SIP, peer may not be registered.
+DONTCALL: Privacy mode, callee rejected the call
+TORTURE: Privacy mode, callee chose to send caller to torture menu
+INVALIDARGS: Error parsing Dial command arguments
